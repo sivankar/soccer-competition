@@ -1,0 +1,35 @@
+{
+	"name": "Competition",
+	"properties": {
+		"id": {
+			"id": 1,
+			"generated": 1,
+			"index": 1,
+			"type": "Number"
+		},
+		"name": {
+			"type": "string",
+			"required": 1
+		},
+		"season": {
+			"type": "string",
+			"required": 1
+		},
+		"start_date": {
+			"type": "date",
+			"required": 1
+		},
+		"end_date": {
+			"type": "date",
+			"required": 1
+		}
+
+	},
+	"relations": {
+		"team": {
+			"type": "hasAndBelongsToMany",
+			"model": "Team",
+			"throughTable": ""
+		}
+	}
+}

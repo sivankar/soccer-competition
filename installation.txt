@@ -1,0 +1,2 @@
+node 10v
+npm install -g loopback-cli

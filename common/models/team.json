@@ -1,0 +1,23 @@
+{
+	"name": "Team",
+	"properties": {
+		"teamId": {
+			"id": 1,
+			"generated": 1,
+			"index": 1,
+			"type": "Number"
+		},
+		"name": {
+			"type": "String",
+			"required": 1
+		},
+		"city": {
+			"type": "String",
+			"required": 1
+		},
+		"colour": {
+			"type": "String",
+			"required": 1
+		}
+	}
+}

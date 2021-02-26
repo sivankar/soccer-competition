@@ -1,0 +1,29 @@
+{
+	"name": "Match",
+	"properties": {
+		"id": {
+			"id": 1,
+			"generated": 1,
+			"index": 1,
+			"type": "Number"
+		},
+		"startDateTime": {
+			"type": "date",
+			"required": 1
+		},
+		"endDateTime": {
+			"type": "date"
+		},
+		"result": {
+			"type": "String"
+		},
+		"homeTeam": "String",
+		"guestTeam": "String"
+	},
+	"relations": {
+		"competition": {
+			"type": "belongsTo",
+			"model": "Competition"
+		}
+	}
+}
