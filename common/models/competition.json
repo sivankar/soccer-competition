@@ -23,13 +23,27 @@
 			"type": "date",
 			"required": 1
 		}
-
 	},
 	"relations": {
 		"team": {
 			"type": "hasAndBelongsToMany",
 			"model": "Team",
 			"throughTable": ""
+		}
+	},
+	"methods": {
+		"prototype.scheduleMatches": {
+			"accepts": [{"arg": "id", "type": "string"}],
+			"returns": {
+				"arg": "",
+				"type": "Object",
+				"root": true
+			},
+			"http": {
+				"verb": "post",
+				"path": "/schedule"
+			},
+			"description": "Competition Id for which matches need to be schedule"
 		}
 	}
 }

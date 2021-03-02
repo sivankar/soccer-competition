@@ -18,6 +18,8 @@
 		"colour": {
 			"type": "String",
 			"required": 1
-		}
+		},
+		"ranking": "Number",
+		"performance": "Performance"
 	}
 }

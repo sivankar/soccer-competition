@@ -1,0 +1,13 @@
+{
+	"name": "Performance",
+	"properties": {
+		"matchesPlayed": "Number", 
+		"points": "Number", 
+		"wins": "Number", 
+		"loses": "Number", 
+		"draws": "Number", 
+		"goals": "Number", 
+		"yellowCards": "Number", 
+		"redCards": "Number"
+	}
+}

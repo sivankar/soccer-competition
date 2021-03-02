@@ -10,5 +10,9 @@ module.exports = function(Competition) {
 	Competition.disableRemoteMethodByName('replaceById', true);
 	Competition.disableRemoteMethodByName('upsertWithWhere', true);
 	Competition.disableRemoteMethodByName("exists", true);
+
+	Competition.prototype.scheduleMatches = function(id, cb) {
+		cb(null, `WIP`)
+	}
 };
 

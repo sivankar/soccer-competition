@@ -1,0 +1,26 @@
+{
+	"name": "Score",
+	"properties": {
+		"scoreId": {
+			"id": 1,
+			"generated": 1,
+			"index": 1,
+			"type": "Number"
+		},
+		"competitionId": {
+			"type": "string",
+			"required": 1
+		},
+		"matchId": {
+			"type": "string",
+			"required": 1
+		},
+		"teamId": {
+			"type": "string",
+			"required": 1
+		},
+		"goal": "Boolean",
+		"yellowCard": "Boolean",
+		"redCard": "Boolean"
+	}
+}

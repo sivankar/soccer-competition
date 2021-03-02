@@ -18,7 +18,8 @@
 			"type": "String"
 		},
 		"homeTeam": "String",
-		"guestTeam": "String"
+		"guestTeam": "String",
+		"status": "String"
 	},
 	"relations": {
 		"competition": {

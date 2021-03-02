@@ -47,6 +47,13 @@
   },
   "Match": {
     "dataSource": "db"
+  },
+  "Score": {
+    "dataSource": "db"
+  },
+  "Performance": {
+    "dataSource": "db",
+    "public": false
   }
 
 }
