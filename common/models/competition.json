@@ -33,7 +33,7 @@
 	},
 	"methods": {
 		"prototype.scheduleMatches": {
-			"accepts": [{"arg": "id", "type": "string"}],
+			"accepts": {"arg": "id", "type": "any", "required": true, "http": {"source": "path"}},
 			"returns": {
 				"arg": "",
 				"type": "Object",

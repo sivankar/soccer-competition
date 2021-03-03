@@ -8,15 +8,10 @@
 			"type": "Number"
 		},
 		"startDateTime": {
-			"type": "date",
-			"required": 1
-		},
-		"endDateTime": {
 			"type": "date"
 		},
-		"result": {
-			"type": "String"
-		},
+		"endDateTime": "date",
+		"result": "String",
 		"homeTeam": "String",
 		"guestTeam": "String",
 		"status": "String"

@@ -1,15 +1,10 @@
 {
 	"name": "Team",
 	"properties": {
-		"teamId": {
-			"id": 1,
-			"generated": 1,
-			"index": 1,
-			"type": "Number"
-		},
 		"name": {
 			"type": "String",
-			"required": 1
+			"required": 1,
+			"id": true
 		},
 		"city": {
 			"type": "String",

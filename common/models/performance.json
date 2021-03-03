@@ -1,13 +1,14 @@
 {
 	"name": "Performance",
+	"base": "Model",
 	"properties": {
-		"matchesPlayed": "Number", 
-		"points": "Number", 
-		"wins": "Number", 
-		"loses": "Number", 
-		"draws": "Number", 
-		"goals": "Number", 
-		"yellowCards": "Number", 
+		"matchesPlayed": "Number",
+		"points": "Number",
+		"wins": "Number",
+		"loses": "Number",
+		"draws": "Number",
+		"goals": "Number",
+		"yellowCards": "Number",
 		"redCards": "Number"
 	}
 }
