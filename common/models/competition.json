@@ -33,7 +33,14 @@
 	},
 	"methods": {
 		"prototype.scheduleMatches": {
-			"accepts": {"arg": "id", "type": "any", "required": true, "http": {"source": "path"}},
+			"accepts": {
+				"arg": "id",
+				"type": "any",
+				"required": true,
+				"http": {
+					"source": "path"
+				}
+			},
 			"returns": {
 				"arg": "",
 				"type": "Object",
@@ -45,5 +52,24 @@
 			},
 			"description": "Competition Id for which matches need to be schedule"
 		}
-	}
+	},
+	"acls": [
+		{
+			"principalType": "ROLE",
+			"principalId": "$everyone",
+			"permission": "DENY"
+		},
+		{
+			"accessType": "WRITE",
+			"principalType": "ROLE",
+			"principalId": "$authenticated",
+			"permission": "ALLOW"
+		},
+		{
+			"accessType": "READ",
+			"principalType": "ROLE",
+			"principalId": "$everyone",
+			"permission": "ALLOW"
+		}
+	]
 }
